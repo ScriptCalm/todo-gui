@@ -31,6 +31,18 @@ If you trust the app (you can inspect the source code in this repo), you can:
 
 - Run the installer as Administrator.
 
+## Packaging & Deployment
+
+The To-Do App was packaged into a standalone Windows installer using [Inno Setup](https://jrsoftware.org/isinfo.php).
+
+- The installer creates Start Menu and Desktop shortcuts.
+- Installation requires Administrator privileges.
+- No internet connection is required after download.
+- To avoid false positives, add an exception in your antivirus for the installer.
+
+> ⚠️ Note: Since the installer is unsigned, Windows Defender and some antivirus software may flag it. This is expected behavior for unsigned personal projects.
+
+
 ## **Download the App**
 
 You can download the latest `.exe` version for Windows here:
