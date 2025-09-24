@@ -1,7 +1,9 @@
 # db.py
 import sqlite3
+import os
 
-DB_NAME = "tasks.db"
+DB_NAME = os.path.join(os.getenv("APPDATA"), "todo_gui_tasks.db")
+
 
 def init_db():
     conn = sqlite3.connect(DB_NAME)
