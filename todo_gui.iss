@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "To-Do App"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "Gabriel Gabi"
 #define MyAppURL "https://github.com/ScriptCalm/todo-gui"
 #define MyAppExeName "todo_gui.exe"
