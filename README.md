@@ -15,11 +15,27 @@ Includes a graphical user interface (GUI), persistent storage using SQLite, and 
 
 ---
 
+## Antivirus & Windows Defender Warnings
+
+This app is not code-signed yet, so you may receive warnings from:
+
+- Microsoft Defender SmartScreen
+
+- Antivirus software like AVG or Avast
+
+If you trust the app (you can inspect the source code in this repo), you can:
+
+- Click "More info" -> "Run anyway" (SmartScreen).
+
+- Add the installer or .exe to your antivirus exceptions if it's blocked.
+
+- Run the installer as Administrator.
+
 ## **Download the App**
 
 You can download the latest `.exe` version for Windows here:
 
-👉 [Download To-Do App (ZIP)](https://github.com/ScriptCalm/todo-gui/releases/download/v1.0.0/todo_gui_v1_0.zip)
+https://github.com/ScriptCalm/todo-gui/releases/tag/v1.0.0
 
 No Python installation required — just unzip and run `main.exe`.
 
