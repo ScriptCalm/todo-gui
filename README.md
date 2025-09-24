@@ -47,7 +47,7 @@ The To-Do App was packaged into a standalone Windows installer using [Inno Setup
 
 You can download the latest `.exe` version for Windows here:
 
-https://github.com/ScriptCalm/todo-gui/releases/tag/v1.0.0
+https://github.com/ScriptCalm/todo-gui/releases/tag/v1.0.1
 
 No Python installation required — just unzip and run `main.exe`.
 
