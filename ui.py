@@ -4,10 +4,10 @@ from tkinter import messagebox
 import db
 
 def refresh_task_list():
-    listbox.delete(0, tk.END)
+    listbox.delete(0, tk.END) # safe approach, clear fresh
     tasks = db.get_tasks()
     for task in tasks:
-        listbox.insert(tk.END, f"{task[0]}. {task[1]}")
+        listbox.insert(tk.END, f"{task[0]}. {task[1]}") # turned into string and insert to listbox
 
 def add_task():
     task_text = entry.get().strip()
@@ -51,4 +51,4 @@ delete_button.grid(row=2, column=0, columnspan=2)
 db.init_db()
 refresh_task_list()
 
-root.mainloop()
+root.mainloop() # waiting for the user interaction
